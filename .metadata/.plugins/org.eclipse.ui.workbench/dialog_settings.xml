@@ -23,4 +23,8 @@
 			<item value="con"/>
 		</list>
 	</section>
+	<section name="ImportExportAction">
+	</section>
+	<section name="FileSystemImportWizard">
+	</section>
 </section>
