@@ -7,10 +7,6 @@ public class Product {
 	private int quantity;
 	
 	
-	
-	/* Para gerar Construtores, get e setters automaticamente, botão direito --> Source.
-	 */
-	
 	public Product() { //Construtor padrão como uma opção caso queira utilizar em Program.
 		
 	}
@@ -21,13 +17,11 @@ public class Product {
 		this.quantity = quantity;
 	}
 	
-	public Product(String name, double price) { // CONSTRUTOR --> SOBRECARGA, disponibilizar mais de uma versão da mesma operação com os parametros como diferentes.
+	public Product(String name, double price) { // CONSTRUTOR --> SOBRECARGA, disponibilizar mais de uma versão da mesma operação com os parametros diferentes.
 		this.name = name; 
 		this.price = price;
 		// Não precisa colocar o this.quantity = 0(é opcional) pois em Java por padrão, objetos e arrays iniciam com o numero 0.
 	}
-	
-	
 	
 	
 	

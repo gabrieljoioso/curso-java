@@ -4,7 +4,7 @@ public class Account {
 	
 	private Integer number;
 	private String holder;
-	protected Double balance; //protected pode ser acessado pela classe, classe em outro pacote e sub classe(independente do pacote).
+	protected Double balance; //protected pode ser acessado pela classe, classe do mesmo pacote e subclasse(independente do pacote).
 	
 	public Account() {
 		
