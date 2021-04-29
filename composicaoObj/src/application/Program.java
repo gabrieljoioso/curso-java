@@ -28,12 +28,12 @@ public class Program {
 		String workerLevel = sc.nextLine();
 		System.out.print("Base salary: ");
 		double baseSalary = sc.nextDouble();
-		Worker worker = new Worker(workerName, WorkerLevel.valueOf(workerLevel), baseSalary, new Department(departmentName)); //Os 3 atributos e mais um atributo do tipo departamento que é a composição de obejtos em Worker. 
+		Worker worker = new Worker(workerName, WorkerLevel.valueOf(workerLevel), baseSalary, new Department(departmentName)); //Os 3 atributos e mais um atributo do tipo departamento que é a composição de objetos em Worker. 
 		
 		System.out.println("How many contracts to this worker? ");
 		int n = sc.nextInt();
 		
-		for (int i=1; i<=n; i++) { 		// esse for vai ser repetir varias vezes até instanciar todos os contratos e associar eles com o trabalhador.
+		for (int i=1; i<=n; i++) { 		// esse for vai repetir varias vezes até instanciar todos os contratos e associar eles com o trabalhador.
 			System.out.println("Enter contract #" + i + " data: ");
 			System.out.print("Date (DD/MM/YYYY): ");
 			Date contractDate = sdf.parse(sc.next()); //entrando com um Date após chamar o SimpleDateFormat(formato que o usuario vai digitar)
